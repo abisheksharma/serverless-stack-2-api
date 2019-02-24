@@ -61,6 +61,7 @@ functions:
   #     domain api call
   # - authorizer: authenticate using the AWS IAM role
   create:
+    gibbresh.what;
     handler: create.main
     events:
       - http:
